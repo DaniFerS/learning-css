@@ -1,0 +1,92 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+h1,h2,h3{
+    font-family: 'Playfair Display', serif;
+}
+h1 {
+    color: #000;
+}
+h1 span{
+    color: #037bc0;
+}
+h2 span{
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+}
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+}
+.navegacion {
+    text-transform: lowercase;
+}
+.navegacion-inicial{
+    /* border-color: #e1e1e1;
+    border-top-style: solid;
+    border-width: 1px; */
+    /* border-top: 1px solid #e1e1e1; */
+    padding: 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navegacion-inicial a{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #037bc0;
+}
+.sobre-nosotros{
+    background-color: red;
+    width: 200px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.sobre-empresa{
+    background-color: blue;
+    width: 500px;
+    padding: 100px;
+}
+.nombre-sitio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.hero{
+    background-image: url(../assets/principal.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.listado-categorias{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.categorias h2{
+    text-align: center;
+}
+
+.categoria a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.categoria a:hover{
+    background-color: #037bc0;
+    color: white;
+    border-bottom-right-radius: 10px;
+}
